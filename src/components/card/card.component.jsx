@@ -2,7 +2,6 @@ import React from "react";
 import "./card.styles.css";
 
 const Card = ({ monster }) => {
-  console.log("Card Component");
   return (
     <div className="card-container">
       <img

@@ -20,7 +20,6 @@ class App extends Component {
   };
 
   render() {
-    console.log("App Component");
     const { monsters, searchField } = this.state;
 
     const filteredMonsters = monsters.filter((monster) =>
@@ -29,6 +28,7 @@ class App extends Component {
 
     return (
       <div className="App">
+        <h1>Monsters Rolodex</h1>
         <SearchBox
           placeholder="search monsters"
           handleChange={this.handleChange}
